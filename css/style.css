@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 1px solid #ccc;
+}
+
+/* main Styles */
+main {
+    padding: 20px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Button styles */
+/* Estilo minimalista */
+#btnEnviar, #btnLimpar {
+    background: none;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Estilo hover */
+#btnEnviar, #btnLimpar {
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+    transition: all 0.3s ease; /* Suaviza a transição de hover */
+}
+
+#btnEnviar {
+    border-color: #4CAF50;
+    color: #4CAF50;
+}
+
+#btnLimpar {
+    border-color: #f44336;
+    color: #f44336;
+}
+
+#btnEnviar:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btnLimpar:hover {
+    background-color: #f44336;
+    color: white;
+}
